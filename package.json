@@ -1,0 +1,38 @@
+{
+  "name": "my-node-test-app",
+  "description": "Simple Node.js app for Yocto Project devtool testing",
+  "version": "0.1.0",
+  "homepage": "https://github.com/whbruce/my-node-test-app",
+  "author": {
+    "name": "Henry Bruce",
+    "url": "https://github.com/whbruce"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/whbruce/my-node-test-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whbruce/my-node-test-app/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/whbruce/my-node-test-app/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "cli",
+    "command line"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "mynodetestapp": "./main.js"
+  },
+  "main": "main.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+  }
+}
