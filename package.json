@@ -34,5 +34,6 @@
     "node": ">=0.8"
   },
   "dependencies": {
+    "my-node-test-lib": "^0.1.0"
   }
 }
